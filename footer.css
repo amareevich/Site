@@ -1,0 +1,134 @@
+.about {
+    width: 100%;
+    height: 340px;
+    background-color: rgb(34, 34, 36);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.about__container {
+    max-width: 1600px;
+    min-width: 1100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+
+.about__container div {
+    min-width: 360px;
+    display: flex;
+    flex-direction:  column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.about__container p {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.about__container span {
+    text-align: center;
+    width: 320px;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+}
+
+.contact {
+    width: 100%;
+    height: 448px;
+    background-image: url(./img/footerBg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.contact__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 1600px;
+    gap: 223px;
+}
+
+.contact__client {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 225px;
+    gap: 30px;
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 557px;
+    gap: 20px;
+}
+.contact__form span {
+    line-height: 180%;
+    width:  400px;
+    font-weight: 200;
+}
+
+.contact__form input {
+    width: 256px;
+    height: 46px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    outline: none;
+    border: 0px;
+}
+
+.contact__form button {
+    width: 100px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    background-color: #F16D7F;
+    color: white;
+    border: 0px;
+    margin-left: -20px;
+    font-size: 14px;
+}
+
+.socialNetwork {
+    width: 100%;
+    height: 79px;
+    background-color: #222222;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialNetwork__container {
+    max-width: 1600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 655px;
+}
+
+.socialNetwork__container  span {
+    color: white;
+}

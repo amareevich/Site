@@ -1,0 +1,324 @@
+
+@media(max-width: 1900px) and (min-width: 1001px){
+    .description-card-man {
+        width: 600px;
+        margin-left: -200px;
+    }
+    .product-card--kids {
+        width: 320px;
+    }
+    .product-card--men {
+        width: 320px;
+    }
+    .product-card--women {
+        width: 320px;
+    }
+    .product-card--accesories {
+        width: 1020px;
+    }
+}
+
+@media(max-width: 1000px) and (min-width: 769px) {
+    .description-card-man {
+        width: 500px;
+        margin-left: -100px;
+    }
+    .product-card--kids {
+        width: 280px;
+    }
+    .product-card--men {
+        width: 280px;
+    }
+    .product-card--women {
+        width: 280px;
+    }
+    .product-card--accesories {
+        width: 900px;
+    }
+}
+
+@media(max-width: 768px) and (min-width: 721px) {
+    main {
+        width: 768px;
+    }
+    .navigation {
+        width: 768px;
+        padding: 0px 40px;
+    }
+
+    .previous {
+        width: 768px;
+        height: 368px;
+        gap: 39px;
+    }
+    .description-card-man {
+        width: 386px;
+        height: 368px;
+        margin-left: -100px;
+        background-size: contain;
+    }
+
+    .description-card-logo {
+        width: 311px;
+        height: 92px;
+    }
+
+    .offer {
+        width: 768px;
+        margin-top: 65px;
+    }
+    .offer__container {
+        width: 768px;
+        height: 303px;
+        gap: 18px;
+    }
+
+    .product-card--women {
+        width: 232px;
+        height: 167px;
+        background-position: center;
+        background-size: cover;
+    }
+    .product-card--men {
+        width: 232px;
+        height: 167px;
+        background-position: center;
+        background-size: cover;
+    }
+    .product-card--kids {
+        width: 232px;
+        height: 167px;
+        background-position: center;
+        background-size: cover;
+    }
+    .product-card--accesories {
+        width: 734px;
+        height: 116px;
+        background-position: center;
+        background-size: cover;
+    }
+    .product-card__description {
+        margin-top: 60px;
+        background-size: cover;
+    }
+
+    .product {
+        width: 768px;
+        margin-top: 100px;
+    }
+    .product-menu {
+        width: 768px;
+        gap: 16px;
+    }
+    .previous-card {
+        width: 360;
+        height: 562px;
+    }
+
+    .previous-card span {
+        height: 51px;
+        font-size: 14px;
+    }
+
+    .previous-card p {
+        height: 19px;
+        font-size: 15px;
+    }
+    .product button {
+        margin-top: 32px;
+    }
+
+    .about {
+        height: 610px;
+    }
+    .about__container {
+        flex-direction: column;
+    }
+    .contact {
+        width: 100%;
+        height: 654px;
+        background-image: url(./img/footerbg2.png);
+        background-position: center;
+        background-size: 102% 102%;
+        background-repeat: no-repeat;
+
+    }
+    .contact__container {
+        width: 100%;
+        height: 654px;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap:48px;
+    }
+    .contact__client {
+        height: 225px;
+        margin-top: 70px;
+    }
+    .contact__form {
+        height: 137px;
+    }
+    .socialNetwork {
+        max-width: 768px;
+    }
+    .socialNetwork__container {
+        max-width: 720px;
+        gap:305px
+    }
+}
+
+@media (max-width: 720px) and (min-width: 320px) {
+    header {
+        width: 100%;
+        background-color: #222222;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 30px;
+    }
+    .navigation {
+        width: 100%;
+    }
+    .navigation__logo {
+        margin-left: 5%;
+    }
+    .navigation__lk {
+        margin-right: 5%;
+    }
+    .navigation__img2 {
+        display: none;
+    }
+    .navigation__img3 {
+        display: none;
+    }
+    main {
+        width: 100%;
+    }
+    .navigation__lk:last-child::after {
+        visibility: hidden;
+    }
+
+    .previous {
+        width: 100%;
+        max-height: 363px;
+        height: 363px;
+        overflow: visible;
+    }
+    .menuBurger {
+        z-index: 100;
+    }
+    .description-card-man {
+        display: none;
+    }
+
+    .description-card-logo {
+        width: 263px;
+        height: 66px;
+    }
+
+    .offer {
+        margin-top: 38px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 1200px;
+        overflow: visible;
+    }
+
+    .offer__container {
+        margin-top: 34px;
+        max-width: 375px;
+        min-height: 1200px;
+    }
+
+    .product-card {
+        width: 343px;
+        height: 248px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .product-card--accesories {
+        width: 343px;
+        height: 111px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .product-card--accesories *:first-child {
+        margin-top: 40px;
+    }
+
+    .product {
+        width: 100%;
+        max-width: 375px;
+    }
+
+    h1 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .product__description {
+        text-align: center;
+        margin: auto 14px;
+    }
+
+    .product-menu {
+        width: 100%;
+        min-height: 3800px;
+        max-width: 375px;
+        margin-top: 64px;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 15px;
+    }
+    .previous-card {
+        width: 359px;
+        height: 580px;
+    }
+
+    .product button {
+        margin-top: 40px;
+        background-color: white;
+    }
+
+    .about {
+        min-height: 610px;
+    }
+    .about__container {
+        flex-direction: column;
+        min-height: 610px;
+    }
+    .contact {
+        min-height: 550px;
+    }
+    .contact__container {
+        flex-direction: column;
+        justify-content: center;
+        gap: 59px;
+        min-height: 550px;
+    }
+    .socialNetwork {
+        min-height: 143px;
+    }
+    .socialNetwork__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        min-height: 143px;
+    }
+
+    .socialNetwork__container > :first-child {
+        order:2;
+    }
+    .socialNetwork__container > :last-child {
+        order:1;
+    }
+}

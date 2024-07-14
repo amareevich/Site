@@ -1,0 +1,336 @@
+@import url(./footer.css);
+@import url(./media.css);
+
+@font-face {
+    font-family: Lato;
+    src: url(./font/Lato-Light.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    user-select: none;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Lato';
+}
+
+header {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #222222;
+}
+
+.navigation {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1600px;
+    height: 75px;
+    overflow: visible;
+    padding: 0px 50px;
+}
+
+.navigation__logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:41px;
+    height: 38px;
+}
+
+.navigation__lk {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:33px;   
+    height: 38px;
+}
+
+.navigation__logo--search {
+    margin-top: 8px;
+}
+
+.navigation__lk:last-child {
+    position: relative;
+    overflow: visible;
+}
+.navigation__lk:last-child::after {
+    content: "5";
+    display: block;
+    width: 20px;
+    height: 20px;
+    color: white;
+    background-color: rgb(241, 109, 127);
+    font-size: 12px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    top: -5px;
+    right: -10px;
+}
+
+main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.previous {
+    position: relative;
+    width: 100%;
+    display: inherit;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 764px;
+    background: #F1E4E6;
+    gap: 64px;
+}
+
+.menuBurger {
+    display: none;
+    position: absolute;
+    width: 232px;
+    height: 664px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgb(0,0,0);
+    right: 0;
+    top:0;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap:24px;
+    padding: 32px 32px;
+}
+
+.menuBurger p:not(:first-child) {
+    color:rgb(241, 109, 127);
+}
+.menuBurger__element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 22px;
+    gap:11px;
+}
+
+.menuBurger__element span {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(111, 110, 110);
+}
+
+.description-card-man {
+    width: 800px;
+    height: 764px;
+    background-image: url(./img/man.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: -340px;
+}
+
+.description-card-logo {
+    width: 405px;
+    height: 93px;
+    background-image: url(./img/logo_name.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.offer {
+    width: 1140px;
+}
+.offer__container {
+    margin-top: 65px;
+    width: 1140px;
+    height: 470px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.product-card {
+    position: relative;
+}
+
+.product-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 192, 203, 0.5);
+    mix-blend-mode: multiply;
+    filter: brightness(35%);
+}
+.product-card--women {
+    width: 360px;
+    height: 260px;
+    background-image: url(./img/img1.png);
+}
+
+.product-card--men {
+    width: 360px;
+    height: 260px;
+    background-image: url(./img/img2.png);
+}
+
+.product-card--kids {
+    width: 360px;
+    height: 260px;
+    background-image: url(./img/img3.png);
+}
+
+.product-card--accesories {
+    width: 1140px;
+    height: 180px;
+    background-image: url(./img/img4.png);
+}
+
+.product-card__description {
+    position: relative;
+    z-index: 2;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 200;
+    margin-top: 90px;
+}
+.product-card__category {
+    position: relative;
+    z-index: 2;
+    color: rgb(241, 109, 127);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 96px;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.product button {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: rgb(242, 99, 118);
+    padding: 15px 39px;
+    text-align: center;
+    background-color: #E5E5E5;
+    border: 1px solid #FF6A6A;
+}
+.product__description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color:#9F9F9F;
+}
+.product-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 1140px;
+    height: 1395px;
+    margin-top: 48px;
+}
+
+.previous-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap:16px;
+    width: 360px;
+    height: 581px;
+    background-color: #F8F8F8;
+}
+
+.previous-card img {
+    width: 100%;
+    height: 420px;
+}
+
+.previous-card div:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+    margin-left: 16px;
+    margin-bottom: 20px;
+    margin-right: 29px;
+}
+
+.previous-card--basket {
+    background-image: url(./img/bascet.png);
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 13px;
+}
+
+h3 {
+    font-size: 13px;
+    font-weight: 400;
+}
+.previous-card span:not(:last-child) {
+    text-align: start;
+    color: #5D5D5D;
+    font-size: 14px;
+    font-weight: 300;
+}
+.previous-card p {
+    color: #F16D7F;
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+.previous-card--span {
+    color: #F8F8F8;
+    font-size: 14px;
+    font-weight: 400;
+    width: 100px;
+    margin-left: 11px;
+}
+
+.product button:hover {
+    background-color: #F16D7F;
+    color: white;
+    transition: 0.2s;
+}
